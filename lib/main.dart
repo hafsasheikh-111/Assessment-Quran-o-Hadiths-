@@ -18,19 +18,19 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: SplashScreen(),
+      home: TabBarSCR(),
     );
   }
 }
 
-class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+class TabBarSCR extends StatefulWidget {
+  const TabBarSCR({super.key});
 
   @override
-  State<SplashScreen> createState() => _SplashScreenState();
+  State<TabBarSCR> createState() => _TabBarSCRState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _TabBarSCRState extends State<TabBarSCR> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
